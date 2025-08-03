@@ -16,7 +16,7 @@ local notificationCooldown = 10
 local currentTime = tick()
 if currentTime - lastNotificationTime >= notificationCooldown then
     game.StarterGui:SetCore("SendNotification", {
-        Title = "Nam Banana sex",
+        Title = "ToiLaTu",
         Text = "Loading...",
         Duration = 5
     })
